@@ -41,10 +41,10 @@ const weatherForecasts = [
 ];
   return (
       <>
-    <h1>Local Weather</h1>
+    <h1>Local Weather app</h1>
     <section>
       {/* // Weather data here */}
-      <h1>app</h1>
+      {/* <h1>app</h1> */}
       {weatherForecasts.map((forecast) =>(
         <WeatherForecasts
         key={forecast.day}
